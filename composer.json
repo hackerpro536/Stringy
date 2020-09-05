@@ -1,0 +1,35 @@
+{
+    "name": "hackerpro536/stringy",
+    "description": "A string manipulation library with multibyte support",
+    "keywords": [
+        "multibyte", "stringy", "manipulation", "utility", "methods", "utf-8",
+        "helpers", "utils", "utf"
+    ],
+    "homepage": "https://github.com/hackerpro536/Stringy",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hackerpro536",
+            "email": "hackerpro536@gmail.com",
+            "homepage": "https://levanphu.info/"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0",
+        "symfony/polyfill-mbstring": "~1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "support": {
+        "issues": "https://github.com/hackerpro536/Stringy/issues",
+        "source": "https://github.com/hackerpro536/Stringy"
+    },
+    "autoload": {
+        "psr-4": { "Stringy\\": "src/" },
+        "files": ["src/Create.php"]
+    },
+    "autoload-dev": {
+        "classmap": [ "tests" ]
+    }
+}
